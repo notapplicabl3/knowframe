@@ -37,3 +37,4 @@ The skill's behavioral rules were tuned on **one** repo. Before trusting them, r
 ## Recorded results
 
 - [`results/loop-vs-prompt-2x2_2026-06-27.md`](results/loop-vs-prompt-2x2_2026-06-27.md) — 2×2 knowframe × mode (prompt vs loop), opus, n=9/cell. Headline: grounding is ~flat in a single prompt but compounds in a loop (best = grounded+loop, 90.0%).
+- [`results/concise-vs-current_2026-07-17.md`](results/concise-vs-current_2026-07-17.md) — item-mode A/B of a ~31% smaller SKILL.md, n=3/cell, 2 judges/case. Headline: concise wins 27.5 vs 25.2 (/30) — interim-default + flip-condition rule drives it; extra rationale prose cost signal-to-noise. Concise installed.
