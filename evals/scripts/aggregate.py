@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate a /know eval run into a benchmark (mean +/- stddev, delta vs baseline).
+"""Aggregate a /knowframe eval run into a benchmark (mean +/- stddev, delta vs baseline).
 Joins scores/<case>.md with maps/<case>.csv. Usage: aggregate.py <run_dir>"""
 import os, re, sys, csv, glob, statistics
 

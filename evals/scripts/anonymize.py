@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Anonymize a /know eval run: shuffle each case's artifacts into anon/<case>/NN.md,
+"""Anonymize a /knowframe eval run: shuffle each case's artifacts into anon/<case>/NN.md,
 scrub literal variant labels, and record label->variant maps. Usage: anonymize.py <run_dir>"""
 import os, re, sys, csv, random, glob
 
