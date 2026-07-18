@@ -1,0 +1,47 @@
+{
+  "skill": "know",
+  "rubric": "rubric.md",
+  "grader": "grader.md",
+  "default_n": 3,
+  "tracks": {
+    "project_mode": {
+      "measures": "Does grounding in the repo's .know/PROJECT.md improve framing+plan quality vs an ungrounded baseline?",
+      "variants": ["baseline", "grounded"],
+      "requires": "A TARGET_REPO that already has a built .know/PROJECT.md. For the overfitting check, run against >=2 different repos.",
+      "cases": [
+        {
+          "id": "pm_vague",
+          "clarity": "bad",
+          "prompt": "Make the riskiest external-state write in this project safer to run before it executes."
+        },
+        {
+          "id": "pm_crisp",
+          "clarity": "good",
+          "prompt": "Add a --dry-run / preview capability to this project's most destructive command: print exactly what it would do, without doing it."
+        }
+      ]
+    },
+    "item_mode": {
+      "measures": "On a genuinely new, ungrounded item, does running the matrix beat going straight to plan; and does the gate correctly SKIP a crisp item (over-framing it is a signal-to-noise failure)?",
+      "variants": ["baseline", "know-item"],
+      "requires": "No repo. Prompts are self-contained.",
+      "cases": [
+        {
+          "id": "im_idea_vague",
+          "clarity": "bad",
+          "prompt": "Add a notifications system to our app."
+        },
+        {
+          "id": "im_decision_vague",
+          "clarity": "bad",
+          "prompt": "Should we price the new plan at $49 or $99?"
+        },
+        {
+          "id": "im_crisp",
+          "clarity": "good",
+          "prompt": "Convert the timestamps in our API responses from epoch seconds to ISO-8601 UTC strings."
+        }
+      ]
+    }
+  }
+}
