@@ -27,7 +27,7 @@ Examples of decomposition, quadrant mapping, and resolution questions. One topic
 
 ---
 
-## Example 3 — Decision
+## Example 2 — Decision
 
 **Request:** "Should I price the new plan at $49 or $99?"
 
@@ -58,7 +58,7 @@ Examples of decomposition, quadrant mapping, and resolution questions. One topic
 
 ---
 
-## Example 4 — A full written knowframe (the file format)
+## Example 3 — A full written knowframe (the file format)
 
 This is what gets written to `.know/<slug>.md` for a non-trivial item. Note depth in **every** quadrant, especially the bottom row.
 
@@ -112,7 +112,7 @@ A guided tool that turns "I have an idea" into an ordered checklist + contact ro
 
 ---
 
-## Example 5 — Project mode (`.know/PROJECT.md`, the persisting file)
+## Example 4 — Project mode (`.know/PROJECT.md`, the persisting file)
 
 Built by a **deep** first pass, then auto-pulled before non-trivial work and self-healed when stale. Note project quadrants and `Last verified`.
 
