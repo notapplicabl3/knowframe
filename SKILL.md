@@ -113,9 +113,9 @@ Rank the feed-forward by **load-bearing + still unresolved**. Tag `[load-bearing
 
 - [references/project-mode.md](references/project-mode.md) — **mandatory read for project mode**.
 - [references/advanced.md](references/advanced.md) — fork-check · loop mode.
-- [references/examples.md](references/examples.md) — worked knowframes (the depth model).
+- [references/examples.md](references/examples.md) — worked knowframes; read when unsure whether a box is deep enough (the depth model lives there, not in the depth-bar line above).
 - [evals/README.md](evals/README.md) — blind /30 harness; run project-mode track on ≥2 repos.
 
 ## Activation: explicit only (by design)
 
-No auto-triggering for item mode — evals showed broad per-task framing is net-neutral-to-harmful, and the SKIP boundary is the hard part. The single automatic trigger is project-mode auto-pull (CLAUDE.md reads `.know/PROJECT.md` before non-trivial work). Don't add item-mode auto-triggering.
+No auto-triggering for item mode — broad per-task framing dilutes more than it protects, and knowing when to SKIP is the hard part. The single automatic trigger is project-mode auto-pull (CLAUDE.md reads `.know/PROJECT.md` before non-trivial work). Don't add item-mode auto-triggering.
