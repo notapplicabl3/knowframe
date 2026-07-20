@@ -10,9 +10,12 @@ Project mode = `.know/PROJECT.md`: one persisting, gitignored **knowframe** for 
 
 ## First run — no `.know/PROJECT.md` yet → go deep
 
+**Birth trigger — the first pass is owed, not optional.** Every project requires a knowframe; a repo whose first spec has landed (or that was just scaffolded) with no `.know/PROJECT.md` is a standing gap, not a pending nicety. The session that lands the spec/scaffold either runs this first pass or queues it as the next session's explicit first action — enforcement hook: fold-back sweep question 5 (`~/BABEL/docs/conventions.md`). Item mode's death trigger deletes the idea knowframe into the spec; this trigger is the rebirth that closes the window where the project has no knowframe at all.
+
 No file => foundation pass; **invest heavily — cost is not a concern.** Confirm first: *"No project understanding file yet — run a deep pass to build `.know/PROJECT.md`? (y / or give me an item instead)."* Then investigate:
 
 - Read README/docs; package manifests + lockfile; directory tree; entry points; key files of *each* major subsystem; tests; CI/config; any CLAUDE.md; recent git history.
+- **Read `plans/SPEC-*.md` (open-risks sections).** Code investigation only rediscovers *technical* unknowns; the conceptual unknowns from the idea phase (scope boundary, who it's for, deferred framing questions) live in spec risks — an item-mode knowframe's death trigger folded them there — and nowhere in the code. Inherit each still-open risk as a known-unknown pointing at the spec; skipping this silently regresses them to unknown-unknowns.
 - Large repo: parallel `Explore` subagents per subsystem (or `/analyze` / `understand`) as *input*; output is `.know/PROJECT.md`, not their report.
 - **Fork-check doesn't transfer to project mode** — no ambiguous request is being re-interpreted; verification beats sampling. Cheap exception: each pass names *what the project is fundamentally for / its architectural spine*; if those **diverge**, record underdetermined purpose as a known-unknown.
 - Write `.know/PROJECT.md` in the **project schema** below; known-knowns rich, bottom row populated (assumptions + blind spots).
