@@ -10,7 +10,7 @@ Project mode = `.know/PROJECT.md`: one persisting, gitignored **knowframe** for 
 
 ## First run — no `.know/PROJECT.md` yet → go deep
 
-**Birth trigger — the first pass is owed, not optional.** Every project requires a knowframe; a repo whose first spec has landed (or that was just scaffolded) with no `.know/PROJECT.md` is a standing gap, not a pending nicety. The session that lands the spec/scaffold either runs this first pass or queues it as the next session's explicit first action — enforcement hook: fold-back sweep question 5 (`~/BABEL/docs/conventions.md`). Item mode's death trigger deletes the idea knowframe into the spec; this trigger is the rebirth that closes the window where the project has no knowframe at all.
+**Birth trigger — the first pass is owed, not optional.** Every project requires a knowframe; a repo whose first spec has landed (or that was just scaffolded) with no `.know/PROJECT.md` is a standing gap, not a pending nicety. The session that lands the spec/scaffold either runs this first pass or queues it as the next session's explicit first action — enforcement hook: fold-back sweep question 5 (`~/BABEL/docs/conventions.md`). "Run" means via the confirm prompt below; a declined pass is queued, not NOOP'd — owed binds eventual creation, never bypassing the gate. Item mode's death trigger deletes the idea knowframe into the spec; this trigger is the rebirth that closes the window where the project has no knowframe at all.
 
 No file => foundation pass; **invest heavily — cost is not a concern.** Confirm first: *"No project understanding file yet — run a deep pass to build `.know/PROJECT.md`? (y / or give me an item instead)."* Then investigate:
 
